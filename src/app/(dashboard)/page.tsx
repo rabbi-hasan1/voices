@@ -1,11 +1,6 @@
-import React from 'react'
-
+import DashboardView from "@/features/dashboard/views/dashboard-view";
 function Dashboard() {
-  return (
-    <div className='flex flex-1 items-center justify-center'>
-      <h1>dashboard page</h1>
-    </div>
-  )
+  return <DashboardView />;
 }
 
-export default Dashboard
+export default Dashboard;
