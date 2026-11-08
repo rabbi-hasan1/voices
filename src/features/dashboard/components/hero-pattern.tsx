@@ -1,5 +1,4 @@
 import { WavyBackground } from '@/components/ui/wavy-background'
-import React from 'react'
 
 function HeroPattern() {
   return (
