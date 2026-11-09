@@ -15,8 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Voice studio",
-  description: "AI voice studio for creating, cloning, and refining lifelike voice content with studio-quality tools inspired by ElevenLabs.",
+  title: {
+    default:"Voice-Studio",
+    template: "%s | Voice-Studio"
+  },
+  description: "AI-powerd text-to-speech and voice cloing platform",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
